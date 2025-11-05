@@ -46,8 +46,6 @@
 </template>
 
 
-<script>
-export default {
-  name: "About",
-};
+<script setup>
+import MasterLayout from '../App.vue'
 </script>

@@ -45,8 +45,12 @@
         </div>
 </template>
 
-<script>
+<script setup>
+import MasterLayout from '../App.vue'
+</script>
+
+<!-- <script>
 export default {
   name: "Service",
 };
-</script>
+</script> -->

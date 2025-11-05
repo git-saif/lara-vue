@@ -1,5 +1,5 @@
 <template>
-  <master-layout>
+  <masterlayout>
   <h1 class="h2 mb-3 py-4 px-3 border-1 rounded">Dashboard</h1>
 
         <div class="card">
@@ -46,16 +46,16 @@
         </div>
 
 
-  </master-layout>
+  </masterlayout>
 </template>
 
-<!-- <script setup>
-import MasterLayout from '../'
-</script> -->
+<script setup>
+import MasterLayout from '../App.vue'
+</script>
 
 
-<script>
+<!-- <script>
 export default {
   name: "Home",
 };
-</script>
+</script> -->

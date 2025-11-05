@@ -1,27 +1,33 @@
 <template>
   <div>
-    <h1 class="2xl">Hello Laravel 10 + Vue.js!</h1>
-    <p>{{ message }}</p>
-    <button @click="changeMessage">Click Me</button>
+    <h1>🌐 Laravel + Vue Router 4 Example</h1>
+
+    <nav>
+      <RouterLink to="/">Home</RouterLink> |
+      <RouterLink to="/about">About</RouterLink>
+    </nav>
+
+    <hr />
+
+    <!-- এখানে পেজগুলো render হবে -->
+    <RouterView />
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue';
-
-const message = ref('Welcome to Vue + Laravel!');
-function changeMessage() {
-  message.value = 'You clicked the button!';
-}
+import { RouterLink, RouterView } from 'vue-router';
 </script>
 
 <style scoped>
-h1 { color: #4caf50; }
-button {
-  padding: 8px 15px;
-  background-color: #1976d2;
-  color: white;
-  border: none;
-  cursor: pointer;
+nav {
+  margin: 10px 0;
+}
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+a.router-link-exact-active {
+  font-weight: bold;
+  color: #28a745;
 }
 </style>

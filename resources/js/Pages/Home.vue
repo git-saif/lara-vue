@@ -1,4 +1,5 @@
 <template>
+  <master-layout>
   <h1 class="h2 mb-3 py-4 px-3 border-1 rounded">Dashboard</h1>
 
         <div class="card">
@@ -43,4 +44,18 @@
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
+
+
+  </master-layout>
 </template>
+
+<!-- <script setup>
+import MasterLayout from '../'
+</script> -->
+
+
+<script>
+export default {
+  name: "Home",
+};
+</script>

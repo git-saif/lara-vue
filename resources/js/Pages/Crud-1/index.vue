@@ -1,11 +1,15 @@
 <template>
   <masterlayout>
-  <h1 class="h2 mb-3 py-4 px-3 border-1 rounded">Dashboard</h1>
+    <div class="header mb-3 py-4 px-3 border-1 rounded">
+
+      <h1 class="h2 ">CRUD - 1</h1>
+      <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    </div>
 
         <div class="card">
           <div class="card-header d-flex justify-content-between align-items-center">
             User List
-            <button class="btn btn-sm btn-primary"> + Add User</button>
+            <router-link to="/crud-1/create" class="btn btn-sm btn-primary"> + Add User</router-link>
           </div>
           <div class="card-body">
 

@@ -19,6 +19,12 @@
                 Service
               </RouterLink>
             </li>
+            
+            <li class="nav-item btn btn-primary mb-3 fw-bold text-start">
+              <RouterLink to="/crud-1" class="btn btn-primary text-white w-100 text-start">
+                CRUD-1
+              </RouterLink>
+            </li>
 
           </ul>
         </div>

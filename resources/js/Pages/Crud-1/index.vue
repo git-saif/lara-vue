@@ -3,7 +3,7 @@
     <div class="header mb-3 py-4 px-3 border-1 rounded">
 
       <h1 class="h2 ">CRUD - 1</h1>
-      <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <p>This is a simple hero information.</p>
     </div>
 
         <div class="card">
